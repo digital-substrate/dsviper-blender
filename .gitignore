@@ -1,0 +1,16 @@
+# Wheels are fetched from PyPI by fetch_wheels.py
+wheels/
+
+# Built Blender extension
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store

@@ -1,0 +1,30 @@
+schema_version = "1.0.0"
+id = "dsviper_add_on"
+version = "1.2.7"
+name = "Digital Substrate Viper"
+tagline = "dsviper for blender add-on"
+maintainer = "Kerhoas Laurent <laurent.kerhoas@digitalsubstrate.io>"
+type = "add-on"
+
+blender_version_min = "4.3.0"
+
+# https://spdx.org/licenses/
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2025 Digital Substrate",
+]
+
+# Platforms supported by this add-on. Each platform must have a matching
+# wheel listed below.
+platforms = [
+  "macos-arm64",
+  "macos-x64",
+  "windows-x64",
+  "linux-x64",
+]
+
+# Wheels are fetched from PyPI by `fetch_wheels.py`, which also rewrites
+# this list to match the resulting filenames. Do not edit by hand.
+wheels = []
