@@ -1,6 +1,6 @@
 # Contributing to dsviper-blender
 
-This repository is currently maintained internally on Babel. Once it migrates to a public hosting platform, the standard fork-and-pull-request flow will be welcome.
+Contributions via the standard GitHub fork-and-pull-request flow are welcome.
 
 ## License
 
