@@ -74,5 +74,7 @@ python3 fetch_wheels.py --version 1.2.8
 
 ## License
 
-GPL-3.0-or-later. dsviper itself ships under its own license (see
+GPL-3.0-or-later — see [LICENSE](LICENSE). Blender add-ons must be
+GPL-compatible (the Blender Python API is GPL-2.0-or-later). dsviper
+itself, pulled in at install time, ships under its own license (see
 [dsviper on PyPI](https://pypi.org/project/dsviper/)).
