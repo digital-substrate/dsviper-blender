@@ -78,3 +78,12 @@ GPL-3.0-or-later — see [LICENSE](LICENSE). Blender add-ons must be
 GPL-compatible (the Blender Python API is GPL-2.0-or-later). dsviper
 itself, pulled in at install time, ships under its own license (see
 [dsviper on PyPI](https://pypi.org/project/dsviper/)).
+
+## Runtime dependency
+
+At runtime, this Blender add-on bundles the `dsviper` Python package
+(downloaded from PyPI by the Blender Extensions packaging step), which
+is **proprietary** (PyPI classifier `License :: Other/Proprietary
+License`). See
+[https://pypi.org/project/dsviper/](https://pypi.org/project/dsviper/)
+for the package's licensing posture and contact information.
