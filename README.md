@@ -16,6 +16,8 @@ dsviper-blender/
 │                            #   by fetch_wheels.py — do not edit by hand.
 ├── fetch_wheels.py          # Downloads dsviper wheels from PyPI for all
 │                            #   supported Blender platforms.
+├── LICENSE                  # GPL-3.0-or-later (full text).
+├── COPYRIGHT                # Project copyright notice and licensing posture.
 └── wheels/                  # Created by fetch_wheels.py (gitignored).
 ```
 
@@ -74,7 +76,8 @@ python3 fetch_wheels.py --version 1.2.8
 
 ## License
 
-GPL-3.0-or-later — see [LICENSE](LICENSE). Blender add-ons must be
+GPL-3.0-or-later — full text in [LICENSE](LICENSE), project copyright
+notice in [COPYRIGHT](COPYRIGHT). Blender add-ons must be
 GPL-compatible (the Blender Python API is GPL-2.0-or-later). dsviper
 itself, pulled in at install time, ships under its own license (see
 [dsviper on PyPI](https://pypi.org/project/dsviper/)).
