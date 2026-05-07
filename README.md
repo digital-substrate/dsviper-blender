@@ -7,6 +7,12 @@ script and from the scripting console.
 This repo serves as a starting template for clients building their own Blender
 extensions on top of dsviper.
 
+## Documentation
+
+Full documentation: https://docs.digitalsubstrate.io/reference-apps/
+
+Part of the [DevKit ecosystem](https://docs.digitalsubstrate.io/).
+
 ## Layout
 
 ```
