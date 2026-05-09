@@ -34,7 +34,7 @@ dsviper-blender/
 python3 fetch_wheels.py
 #
 # Optional flags:
-#   --version 1.2.8           pin to a specific dsviper release
+#   --version 1.2.9           pin to a specific dsviper release
 #   --python-version 3.12     match Blender's embedded Python (5.x will move past 3.11)
 
 # 2. Build the Blender extension.
@@ -52,7 +52,7 @@ python3 fetch_wheels.py
 ```
 >>> import dsviper
 >>> dsviper.version()
-(1, 2, 7)
+(1, 2, 9)
 ```
 
 ## Supported platforms
@@ -73,10 +73,10 @@ When a new dsviper version ships on PyPI:
 
 ```bash
 # Update the manifest version
-sed -i '' 's/^version = ".*"/version = "1.2.8"/' blender_manifest.toml
+sed -i '' 's/^version = ".*"/version = "1.2.9"/' blender_manifest.toml
 
 # Re-fetch wheels and rebuild
-python3 fetch_wheels.py --version 1.2.8
+python3 fetch_wheels.py --version 1.2.9
 /Applications/Blender.app/Contents/MacOS/Blender --command extension build
 ```
 
